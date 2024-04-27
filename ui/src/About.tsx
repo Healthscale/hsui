@@ -16,8 +16,7 @@ function About() {
             <Button className='hs-button-dark about-bt'><HashLink to="#contact" className='clean-link'>Contact</HashLink></Button>
           </Col>
           <Col md={6} className="about-cards">
-            {/* add one image from https://hsassets.s3.ap-south-1.amazonaws.com/hs1.png */}
-            <Card.Img src="https://hsassets.s3.ap-south-1.amazonaws.com/hs1.png" alt="HealthSense" />
+            <Card.Img src="https://healthscale.in/hs1.png" alt="HealthSense" />
           </Col>
           {/* <Col md={6} className="about-cards">
             <Row>

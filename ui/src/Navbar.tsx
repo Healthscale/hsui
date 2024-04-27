@@ -42,8 +42,6 @@ function CustomNavbar() {
       <Container>
         <Navbar.Brand>
           <Link className='clean-link' to="/">
-            {/* https://hsassets.s3.ap-south-1.amazonaws.com/logo.png */}
-            {/* <img src="logo.png" alt="Aayurv" className="navbar-logo" /> */}
             <p className='custom' >Healthscale</p>
           </Link>
         </Navbar.Brand>
