@@ -1,0 +1,20 @@
+@import 'colors';
+
+$primary: var(--primary-color);
+
+$primary-shades: (
+  '100': lighten($primary, 90%),
+  '200': lighten($primary, 80%),
+  '300': lighten($primary, 70%),
+  '400': lighten($primary, 60%),
+  '500': lighten($primary, 50%),
+  '600': lighten($primary, 40%),
+  '700': lighten($primary, 30%),
+  '800': lighten($primary, 20%),
+  '900': lighten($primary, 10%),
+  '1000': lighten($primary, 5%)
+);
+
+@each $name, $value in $primary-shades {
+  --primary-color-#{$name}: #{$value};
+}

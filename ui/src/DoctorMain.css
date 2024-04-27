@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.staff-page {
+    padding: auto;
+    font-family: 'Hind', 'sans-serif';
+}
+
+/* staff page left should span vertically length of window it's font should be centered in middle of the bootstamp column */
+.staff-page-left {
+    background-color: #FCF6F6;
+    border-right: 2px solid black;
+    padding: 10px;
+    padding-left: 5%;
+    height: 100vh;
+    text-align: left;
+}
+
+/* staff-card will have #FCF6F6 border on all sides with margin and padding to keep some space between the two cards in a row */
+.staff-card {
+    border: 2px solid #F8D3D3;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* staff card title will be bold and black in color, algined to left */
+.staff-card-title {
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+/* staff card text will be of Hind font not bold */
+.staff-card-text {
+    font-family: 'Hind', 'sans-serif';
+    font-weight: normal;
+}
+
+/* staff-textarea will be a text box spanning the width of the page with rounded of border in  #F8D3D3 color */
+
+.staff-textarea {
+    width: 80%;
+    border: 2px solid #F8D3D3;
+    border-radius: 5px;
+    padding: 10px;
+    align-self: center;
+    resize: none;
+    overflow: hidden;
+    min-height: 30px;
+}

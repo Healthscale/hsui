@@ -1,0 +1,56 @@
+
+
+.custom {
+    font-family: 'Hind', sans-serif;
+}
+
+/* BORDER COLOR F8D3D3 */
+.hs-button-border {
+    border: 1px solid #F8D3D3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: whitesmoke;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+
+/* on hover change color to border color and text inside to white */
+.hs-button-border:hover {
+    border: 1px solid #F8D3D3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #F8D3D3;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+}
+
+.clean-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Hind', sans-serif;
+}
+
+  
+/* BORDER COLOR F8D3D3 */
+.hs-button-dark {
+    border: 1px solid #F8D3D3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #F8D3D3;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+
+/* on hover change color to border color and text inside to white */
+.hs-button-dark:hover {
+    border: 1px solid #F8D3D3;
+    border-radius: 5px;
+    background-color: #F8D3D3;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+}

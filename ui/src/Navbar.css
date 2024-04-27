@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.navbar-logo {
+  width: auto;
+}
+
+.navbar {
+  background-color: #FCF6F6;
+  border-bottom: 1px solid black;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  position: sticky;
+  top: 0;  
+}
+
+.navbar-brand {
+  font-size: 2.0rem;
+  padding-top: 1%;
+  margin-block: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #333;
+}

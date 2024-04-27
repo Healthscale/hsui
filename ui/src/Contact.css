@@ -1,0 +1,65 @@
+.contact-section {
+    padding: 50px 0;
+    background-color: #e9e9e9;
+  
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+  
+      li {
+        margin-bottom: 10px;
+  
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #fff;
+  }
+  
+  .form-group-custom {
+    margin-bottom: 1rem;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .contact-section {
+      padding: 30px 0;
+  
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style: none;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  .contact-icon {
+    color: royalblue;
+    size: 20px;
+  }
+
+  .contact-icon:hover {
+    color: darkblue;
+    size: 20px;
+  }
